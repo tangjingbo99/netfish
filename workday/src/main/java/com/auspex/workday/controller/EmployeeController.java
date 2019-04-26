@@ -21,7 +21,7 @@ public class EmployeeController {
     @ResponseBody
     @RequestMapping(value = "/test/{param}")
     public String test(@PathVariable("param") String param){
-        return "hi," + param;
+        return "hi,stranger:" + param;
     }
 
 }
